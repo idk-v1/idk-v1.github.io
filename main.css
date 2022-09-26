@@ -1,0 +1,173 @@
+body {
+    overflow: hidden;
+    position: fixed;
+}
+html {
+    height: 100%;
+}
+.fin-mid {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    width: 50px;
+    height: 35px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    transform: scaleX(-1);
+    transform: rotate(160deg);
+}
+.fin-end {
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    width: 75px;
+    height: 25px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+.fin-top {
+    position: absolute;
+    left: 38%;
+    top: -24%;
+    width: 50px;
+    height: 25px;
+    transform: skew(-20deg);
+}
+.eye {
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    padding: 7px;
+    border: solid 4px #fff;
+    border-radius: 50%;
+}
+.body {
+    position: fixed;
+    width: 300px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: linear-gradient(#ffffff30, #00000080),
+    repeating-linear-gradient(60deg, #00000033 0 2px, transparent 1px 7%);
+    background: radial-gradient(circle at 0% 50%, rgba(0, 0, 0, 0) 9px, #00000080 10px, rgba(0, 0, 0, 0) 11px) 0px 10px, radial-gradient(at 100% 100%, rgba(0, 0, 0, 0) 9px, #00000080 10px, rgba(0, 0, 0, 0) 11px);
+    background-size: 20px 20px;
+}
+.text {
+    position: absolute;
+    top: 100%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 150%;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.settings {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #121212;
+}
+.setspan {
+    top: -10px;
+    left: 4px;
+    position: absolute;
+    color: #696969;
+    font-size: 50px;
+}
+.menu {
+    display: none;
+    position: fixed;
+    bottom: 0%;
+    right: 150px;
+    background-color: #121212;
+    width: 100%;
+    height: 20%;
+    border-bottom: #121212 50px solid;
+}
+
+@font-face {
+    font-family: "7Segment";
+    src: url("7Segment.ttf");
+}
+
+.menuele {
+    position: absolute;
+    text-align: right;
+    width: 60px;
+    font-size: 25px;
+    top: 140px;
+    font-size: 175%;
+    font-family: "7Segment";
+    background-color: #696969;
+}
+.menufl {
+    right: 375px;
+    margin-top: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 140px;
+    background-color: #454545;
+    color: #fff;
+    font-size: 125%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+.menur {
+    right: 50px;
+    color: #5050ff;
+}
+.menum {
+    right: 125px;
+    color: #50ff50;
+}
+.menul {
+    right: 200px;
+    color: #ff5050;
+}
+.menut {
+    top: 20px;
+}
+
+.menufmt {
+    top: 60px;
+}
+
+.menufmb {
+    top: 100px;
+}
+
+.menuf {
+    right: 300px;
+    color: #fff;
+}
+
+.menugrad {
+    top: 60px;
+    width: 67px;
+    height: 75px;
+    position: absolute;
+}
+
+.menubutton {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    border: solid 2px #454545;
+}
+
+.menumisc {
+    right: 550px;
+}
+.bubble {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    background-color: #8080ff50;
+    border-radius: 50%;
+    border: solid 4px #ffffff30;
+}
