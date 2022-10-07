@@ -1,0 +1,52 @@
+html
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#can
+{
+    top: 0;
+    left: 0;
+    position: fixed;
+    image-rendering: pixelated;
+}
+#tcounter
+{
+    position: fixed;
+    top: 0;
+    left: 10px;
+}
+#bcounter
+{
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+#counter
+{
+    display: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #000;
+    width: 250px;
+    height: 75px;
+    border-bottom: #444 5px solid;
+    border-right: #444 5px solid;
+}
+.r
+{
+    color: #f00;
+}
+.g
+{
+    color: #0f0;
+}
+.b
+{
+    color: #00f;
+}
