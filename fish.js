@@ -203,7 +203,7 @@ class RainbowFish extends Fish
 
 function cfish()
 {
-    let val = Math.floor(Math.random() * 50);
+    let val = Math.floor(Math.random() * 10);
     switch (val)
     {
         case 0:
