@@ -1,3 +1,7 @@
+html {
+    background-color: #fff;
+}
+
 #links {
     position: absolute;
     right: 0;
@@ -5,9 +9,53 @@
     padding: 20px;
     background-color: #ddd;
     border: 5px #eee solid;
+    color: #000;
 }
 
 #projLinks {
     padding-left: 20px;
     line-height: 1.5;
+}
+
+#sidePanel {
+    left: 0;
+    border: 5px #eee solid;
+    border-left: 0px #0000 solid;
+    position: fixed;
+    margin: 10px;
+    margin-left: 0;
+}
+
+#theme {
+    aspect-ratio: 1 / 1;
+    width: 50px;
+    margin: 5px;
+    background-color: #444;
+    border: 2px #ccc solid;
+}
+
+#themeIcon {
+    left: 0;
+    top: 0;
+    width: 40px;
+    aspect-ratio: 1 / 1;
+    margin: 5px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+#themeIcon2 {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    aspect-ratio: 1 / 1;
+    margin: 5px;
+    background-color: #444;
+    border-radius: 50%;
+}
+
+a {
+    color: #48f;
 }
