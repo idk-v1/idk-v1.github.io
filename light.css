@@ -1,0 +1,13 @@
+#links {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ddd;
+    border: 5px #eee solid;
+}
+
+#projLinks {
+    padding-left: 20px;
+    line-height: 1.5;
+}
